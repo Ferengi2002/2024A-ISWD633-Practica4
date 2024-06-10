@@ -11,6 +11,15 @@ Asignar núcleos de CPU específicos:
 
 **¿Como saber el numero de procesadores virtuales que tiene una máquina?**
 
+Puedes usar el siguiente comando para conocer la cantidad de procesadores virtuales (CPUs) que tiene tu máquina:
+```
+nproc
+```
+O bien:
+```
+lscpu | grep '^CPU(s):'
+```
+
 ### Para crear y ejecutar los siguientes contenedores usar la imagen de nginx:alpine
 
 Limitar el uso de CPU a 1.5 núcleos
