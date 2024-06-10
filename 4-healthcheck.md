@@ -75,3 +75,6 @@ Define un período de gracia inicial durante el cual los fallos del Healthcheck 
 ```
 docker run -d --name server-nginx --health-cmd="curl http://localhost" --health-interval=3s --health-start-period=5s --health-retries=3 --health-timeout=10s nginx:alpine
 ```
+
+![image](https://github.com/Ferengi2002/2024A-ISWD633-Practica4/assets/100974435/0d89b2a6-c88a-4ea3-96af-ff29ff48d709)
+
